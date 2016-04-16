@@ -9,11 +9,55 @@
 /* Begin PBXBuildFile section */
 		37FF3BE91CC267340098A8BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3BE81CC267340098A8BB /* main.m */; };
 		37FF3BEC1CC267340098A8BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3BEB1CC267340098A8BB /* AppDelegate.m */; };
-		37FF3BEF1CC267340098A8BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3BEE1CC267340098A8BB /* ViewController.m */; };
-		37FF3BF21CC267340098A8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FF3BF01CC267340098A8BB /* Main.storyboard */; };
 		37FF3BF41CC267340098A8BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FF3BF31CC267340098A8BB /* Images.xcassets */; };
 		37FF3BF71CC267340098A8BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37FF3BF51CC267340098A8BB /* LaunchScreen.xib */; };
 		37FF3C031CC267340098A8BB /* configViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C021CC267340098A8BB /* configViewExampleTests.m */; };
+		37FF3C2C1CC268CC0098A8BB /* MJBaseWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C0F1CC268CC0098A8BB /* MJBaseWidgetView.m */; };
+		37FF3C2D1CC268CC0098A8BB /* MJBaseWidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C0F1CC268CC0098A8BB /* MJBaseWidgetView.m */; };
+		37FF3C2E1CC268CC0098A8BB /* MJButtonExtentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C111CC268CC0098A8BB /* MJButtonExtentView.m */; };
+		37FF3C2F1CC268CC0098A8BB /* MJButtonExtentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C111CC268CC0098A8BB /* MJButtonExtentView.m */; };
+		37FF3C301CC268CC0098A8BB /* MJButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C131CC268CC0098A8BB /* MJButtonView.m */; };
+		37FF3C311CC268CC0098A8BB /* MJButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C131CC268CC0098A8BB /* MJButtonView.m */; };
+		37FF3C341CC268CC0098A8BB /* MJInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C171CC268CC0098A8BB /* MJInputTextView.m */; };
+		37FF3C351CC268CC0098A8BB /* MJInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C171CC268CC0098A8BB /* MJInputTextView.m */; };
+		37FF3C361CC268CC0098A8BB /* MJMultipleChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C191CC268CC0098A8BB /* MJMultipleChoiceView.m */; };
+		37FF3C371CC268CC0098A8BB /* MJMultipleChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C191CC268CC0098A8BB /* MJMultipleChoiceView.m */; };
+		37FF3C381CC268CC0098A8BB /* MJMultiSelectPickerDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C1B1CC268CC0098A8BB /* MJMultiSelectPickerDataView.m */; };
+		37FF3C391CC268CC0098A8BB /* MJMultiSelectPickerDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C1B1CC268CC0098A8BB /* MJMultiSelectPickerDataView.m */; };
+		37FF3C3A1CC268CC0098A8BB /* MJPickerDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C1D1CC268CC0098A8BB /* MJPickerDataView.m */; };
+		37FF3C3B1CC268CC0098A8BB /* MJPickerDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C1D1CC268CC0098A8BB /* MJPickerDataView.m */; };
+		37FF3C3C1CC268CC0098A8BB /* MJRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C1F1CC268CC0098A8BB /* MJRadioButtonView.m */; };
+		37FF3C3D1CC268CC0098A8BB /* MJRadioButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C1F1CC268CC0098A8BB /* MJRadioButtonView.m */; };
+		37FF3C3E1CC268CC0098A8BB /* MJSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C211CC268CC0098A8BB /* MJSignatureView.m */; };
+		37FF3C3F1CC268CC0098A8BB /* MJSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C211CC268CC0098A8BB /* MJSignatureView.m */; };
+		37FF3C441CC268CC0098A8BB /* MJBasePlistConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C271CC268CC0098A8BB /* MJBasePlistConfigController.m */; };
+		37FF3C451CC268CC0098A8BB /* MJBasePlistConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C271CC268CC0098A8BB /* MJBasePlistConfigController.m */; };
+		37FF3C461CC268CC0098A8BB /* MJBasePlistConfigRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C291CC268CC0098A8BB /* MJBasePlistConfigRowView.m */; };
+		37FF3C471CC268CC0098A8BB /* MJBasePlistConfigRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C291CC268CC0098A8BB /* MJBasePlistConfigRowView.m */; };
+		37FF3C481CC268CC0098A8BB /* MJBasePlistConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C2B1CC268CC0098A8BB /* MJBasePlistConfigView.m */; };
+		37FF3C491CC268CC0098A8BB /* MJBasePlistConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3C2B1CC268CC0098A8BB /* MJBasePlistConfigView.m */; };
+		37FF3CC81CC26B780098A8BB /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CBE1CC26B780098A8BB /* ALView+PureLayout.m */; };
+		37FF3CC91CC26B780098A8BB /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CBE1CC26B780098A8BB /* ALView+PureLayout.m */; };
+		37FF3CCA1CC26B780098A8BB /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CC01CC26B780098A8BB /* NSArray+PureLayout.m */; };
+		37FF3CCB1CC26B780098A8BB /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CC01CC26B780098A8BB /* NSArray+PureLayout.m */; };
+		37FF3CCC1CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CC21CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m */; };
+		37FF3CCD1CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CC21CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m */; };
+		37FF3CCE1CC26B780098A8BB /* UIView+TTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CC71CC26B780098A8BB /* UIView+TTCategory.m */; };
+		37FF3CCF1CC26B780098A8BB /* UIView+TTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CC71CC26B780098A8BB /* UIView+TTCategory.m */; };
+		37FF3CD61CC26BD20098A8BB /* NSArray+safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CD11CC26BD20098A8BB /* NSArray+safety.m */; };
+		37FF3CD71CC26BD20098A8BB /* NSArray+safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CD11CC26BD20098A8BB /* NSArray+safety.m */; };
+		37FF3CD81CC26BD20098A8BB /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CD31CC26BD20098A8BB /* UIResponder+Router.m */; };
+		37FF3CD91CC26BD20098A8BB /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CD31CC26BD20098A8BB /* UIResponder+Router.m */; };
+		37FF3CDA1CC26BD20098A8BB /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CD51CC26BD20098A8BB /* UIView+Shake.m */; };
+		37FF3CDB1CC26BD20098A8BB /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CD51CC26BD20098A8BB /* UIView+Shake.m */; };
+		37FF3CE61CC26D5E0098A8BB /* MJSingelDropListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CE11CC26D5E0098A8BB /* MJSingelDropListCell.m */; };
+		37FF3CE71CC26D5E0098A8BB /* MJSingelDropListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CE11CC26D5E0098A8BB /* MJSingelDropListCell.m */; };
+		37FF3CEE1CC26ECD0098A8BB /* MJSingleDropViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CED1CC26ECD0098A8BB /* MJSingleDropViewModel.m */; };
+		37FF3CEF1CC26ECD0098A8BB /* MJSingleDropViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CED1CC26ECD0098A8BB /* MJSingleDropViewModel.m */; };
+		37FF3CF21CC26F1E0098A8BB /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CF11CC26F1E0098A8BB /* NSString+Util.m */; };
+		37FF3CF31CC26F1E0098A8BB /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CF11CC26F1E0098A8BB /* NSString+Util.m */; };
+		37FF3CF61CC26FE50098A8BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CF51CC26FE50098A8BB /* MainViewController.m */; };
+		37FF3CF71CC26FE50098A8BB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF3CF51CC26FE50098A8BB /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +76,63 @@
 		37FF3BE81CC267340098A8BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37FF3BEA1CC267340098A8BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37FF3BEB1CC267340098A8BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37FF3BED1CC267340098A8BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37FF3BEE1CC267340098A8BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		37FF3BF11CC267340098A8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37FF3BF31CC267340098A8BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37FF3BF61CC267340098A8BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		37FF3BFC1CC267340098A8BB /* configViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = configViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FF3C011CC267340098A8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37FF3C021CC267340098A8BB /* configViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = configViewExampleTests.m; sourceTree = "<group>"; };
+		37FF3C0E1CC268CC0098A8BB /* MJBaseWidgetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBaseWidgetView.h; sourceTree = "<group>"; };
+		37FF3C0F1CC268CC0098A8BB /* MJBaseWidgetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBaseWidgetView.m; sourceTree = "<group>"; };
+		37FF3C101CC268CC0098A8BB /* MJButtonExtentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJButtonExtentView.h; sourceTree = "<group>"; };
+		37FF3C111CC268CC0098A8BB /* MJButtonExtentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJButtonExtentView.m; sourceTree = "<group>"; };
+		37FF3C121CC268CC0098A8BB /* MJButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJButtonView.h; sourceTree = "<group>"; };
+		37FF3C131CC268CC0098A8BB /* MJButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJButtonView.m; sourceTree = "<group>"; };
+		37FF3C161CC268CC0098A8BB /* MJInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJInputTextView.h; sourceTree = "<group>"; };
+		37FF3C171CC268CC0098A8BB /* MJInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJInputTextView.m; sourceTree = "<group>"; };
+		37FF3C181CC268CC0098A8BB /* MJMultipleChoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMultipleChoiceView.h; sourceTree = "<group>"; };
+		37FF3C191CC268CC0098A8BB /* MJMultipleChoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMultipleChoiceView.m; sourceTree = "<group>"; };
+		37FF3C1A1CC268CC0098A8BB /* MJMultiSelectPickerDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMultiSelectPickerDataView.h; sourceTree = "<group>"; };
+		37FF3C1B1CC268CC0098A8BB /* MJMultiSelectPickerDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMultiSelectPickerDataView.m; sourceTree = "<group>"; };
+		37FF3C1C1CC268CC0098A8BB /* MJPickerDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPickerDataView.h; sourceTree = "<group>"; };
+		37FF3C1D1CC268CC0098A8BB /* MJPickerDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPickerDataView.m; sourceTree = "<group>"; };
+		37FF3C1E1CC268CC0098A8BB /* MJRadioButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRadioButtonView.h; sourceTree = "<group>"; };
+		37FF3C1F1CC268CC0098A8BB /* MJRadioButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRadioButtonView.m; sourceTree = "<group>"; };
+		37FF3C201CC268CC0098A8BB /* MJSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSignatureView.h; sourceTree = "<group>"; };
+		37FF3C211CC268CC0098A8BB /* MJSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSignatureView.m; sourceTree = "<group>"; };
+		37FF3C261CC268CC0098A8BB /* MJBasePlistConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBasePlistConfigController.h; sourceTree = "<group>"; };
+		37FF3C271CC268CC0098A8BB /* MJBasePlistConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBasePlistConfigController.m; sourceTree = "<group>"; };
+		37FF3C281CC268CC0098A8BB /* MJBasePlistConfigRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBasePlistConfigRowView.h; sourceTree = "<group>"; };
+		37FF3C291CC268CC0098A8BB /* MJBasePlistConfigRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBasePlistConfigRowView.m; sourceTree = "<group>"; };
+		37FF3C2A1CC268CC0098A8BB /* MJBasePlistConfigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBasePlistConfigView.h; sourceTree = "<group>"; };
+		37FF3C2B1CC268CC0098A8BB /* MJBasePlistConfigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBasePlistConfigView.m; sourceTree = "<group>"; };
+		37FF3CBD1CC26B780098A8BB /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		37FF3CBE1CC26B780098A8BB /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		37FF3CBF1CC26B780098A8BB /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		37FF3CC01CC26B780098A8BB /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		37FF3CC11CC26B780098A8BB /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		37FF3CC21CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		37FF3CC31CC26B780098A8BB /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		37FF3CC41CC26B780098A8BB /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		37FF3CC51CC26B780098A8BB /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		37FF3CC61CC26B780098A8BB /* UIView+TTCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTCategory.h"; sourceTree = "<group>"; };
+		37FF3CC71CC26B780098A8BB /* UIView+TTCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTCategory.m"; sourceTree = "<group>"; };
+		37FF3CD01CC26BD20098A8BB /* NSArray+safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+safety.h"; sourceTree = "<group>"; };
+		37FF3CD11CC26BD20098A8BB /* NSArray+safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+safety.m"; sourceTree = "<group>"; };
+		37FF3CD21CC26BD20098A8BB /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		37FF3CD31CC26BD20098A8BB /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		37FF3CD41CC26BD20098A8BB /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		37FF3CD51CC26BD20098A8BB /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		37FF3CDD1CC26D5E0098A8BB /* I_W_BuildInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I_W_BuildInfo.h; sourceTree = "<group>"; };
+		37FF3CDE1CC26D5E0098A8BB /* I_W_DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I_W_DataSource.h; sourceTree = "<group>"; };
+		37FF3CDF1CC26D5E0098A8BB /* I_W_OptionDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I_W_OptionDataItem.h; sourceTree = "<group>"; };
+		37FF3CE01CC26D5E0098A8BB /* MJSingelDropListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSingelDropListCell.h; sourceTree = "<group>"; };
+		37FF3CE11CC26D5E0098A8BB /* MJSingelDropListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSingelDropListCell.m; sourceTree = "<group>"; };
+		37FF3CEC1CC26ECD0098A8BB /* MJSingleDropViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSingleDropViewModel.h; sourceTree = "<group>"; };
+		37FF3CED1CC26ECD0098A8BB /* MJSingleDropViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSingleDropViewModel.m; sourceTree = "<group>"; };
+		37FF3CF01CC26F1E0098A8BB /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		37FF3CF11CC26F1E0098A8BB /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		37FF3CF41CC26FE50098A8BB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		37FF3CF51CC26FE50098A8BB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +174,11 @@
 		37FF3BE51CC267340098A8BB /* configViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				37FF3C0C1CC268CC0098A8BB /* baseConfigView */,
 				37FF3BEA1CC267340098A8BB /* AppDelegate.h */,
 				37FF3BEB1CC267340098A8BB /* AppDelegate.m */,
-				37FF3BED1CC267340098A8BB /* ViewController.h */,
-				37FF3BEE1CC267340098A8BB /* ViewController.m */,
-				37FF3BF01CC267340098A8BB /* Main.storyboard */,
+				37FF3CF41CC26FE50098A8BB /* MainViewController.h */,
+				37FF3CF51CC26FE50098A8BB /* MainViewController.m */,
 				37FF3BF31CC267340098A8BB /* Images.xcassets */,
 				37FF3BF51CC267340098A8BB /* LaunchScreen.xib */,
 				37FF3BE61CC267340098A8BB /* Supporting Files */,
@@ -117,6 +210,95 @@
 				37FF3C011CC267340098A8BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37FF3C0C1CC268CC0098A8BB /* baseConfigView */ = {
+			isa = PBXGroup;
+			children = (
+				37FF3CBB1CC26B780098A8BB /* Library */,
+				37FF3C0D1CC268CC0098A8BB /* configableWidget */,
+				37FF3C261CC268CC0098A8BB /* MJBasePlistConfigController.h */,
+				37FF3C271CC268CC0098A8BB /* MJBasePlistConfigController.m */,
+				37FF3C281CC268CC0098A8BB /* MJBasePlistConfigRowView.h */,
+				37FF3C291CC268CC0098A8BB /* MJBasePlistConfigRowView.m */,
+				37FF3C2A1CC268CC0098A8BB /* MJBasePlistConfigView.h */,
+				37FF3C2B1CC268CC0098A8BB /* MJBasePlistConfigView.m */,
+			);
+			path = baseConfigView;
+			sourceTree = "<group>";
+		};
+		37FF3C0D1CC268CC0098A8BB /* configableWidget */ = {
+			isa = PBXGroup;
+			children = (
+				37FF3CDC1CC26D5E0098A8BB /* PickerDataModel */,
+				37FF3C0E1CC268CC0098A8BB /* MJBaseWidgetView.h */,
+				37FF3C0F1CC268CC0098A8BB /* MJBaseWidgetView.m */,
+				37FF3C101CC268CC0098A8BB /* MJButtonExtentView.h */,
+				37FF3C111CC268CC0098A8BB /* MJButtonExtentView.m */,
+				37FF3C121CC268CC0098A8BB /* MJButtonView.h */,
+				37FF3C131CC268CC0098A8BB /* MJButtonView.m */,
+				37FF3C161CC268CC0098A8BB /* MJInputTextView.h */,
+				37FF3C171CC268CC0098A8BB /* MJInputTextView.m */,
+				37FF3C181CC268CC0098A8BB /* MJMultipleChoiceView.h */,
+				37FF3C191CC268CC0098A8BB /* MJMultipleChoiceView.m */,
+				37FF3C1A1CC268CC0098A8BB /* MJMultiSelectPickerDataView.h */,
+				37FF3C1B1CC268CC0098A8BB /* MJMultiSelectPickerDataView.m */,
+				37FF3C1C1CC268CC0098A8BB /* MJPickerDataView.h */,
+				37FF3C1D1CC268CC0098A8BB /* MJPickerDataView.m */,
+				37FF3C1E1CC268CC0098A8BB /* MJRadioButtonView.h */,
+				37FF3C1F1CC268CC0098A8BB /* MJRadioButtonView.m */,
+				37FF3C201CC268CC0098A8BB /* MJSignatureView.h */,
+				37FF3C211CC268CC0098A8BB /* MJSignatureView.m */,
+			);
+			path = configableWidget;
+			sourceTree = "<group>";
+		};
+		37FF3CBB1CC26B780098A8BB /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				37FF3CBC1CC26B780098A8BB /* PureLayout */,
+				37FF3CC61CC26B780098A8BB /* UIView+TTCategory.h */,
+				37FF3CC71CC26B780098A8BB /* UIView+TTCategory.m */,
+				37FF3CD01CC26BD20098A8BB /* NSArray+safety.h */,
+				37FF3CD11CC26BD20098A8BB /* NSArray+safety.m */,
+				37FF3CD21CC26BD20098A8BB /* UIResponder+Router.h */,
+				37FF3CD31CC26BD20098A8BB /* UIResponder+Router.m */,
+				37FF3CD41CC26BD20098A8BB /* UIView+Shake.h */,
+				37FF3CD51CC26BD20098A8BB /* UIView+Shake.m */,
+				37FF3CF01CC26F1E0098A8BB /* NSString+Util.h */,
+				37FF3CF11CC26F1E0098A8BB /* NSString+Util.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		37FF3CBC1CC26B780098A8BB /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				37FF3CBD1CC26B780098A8BB /* ALView+PureLayout.h */,
+				37FF3CBE1CC26B780098A8BB /* ALView+PureLayout.m */,
+				37FF3CBF1CC26B780098A8BB /* NSArray+PureLayout.h */,
+				37FF3CC01CC26B780098A8BB /* NSArray+PureLayout.m */,
+				37FF3CC11CC26B780098A8BB /* NSLayoutConstraint+PureLayout.h */,
+				37FF3CC21CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m */,
+				37FF3CC31CC26B780098A8BB /* PureLayout+Internal.h */,
+				37FF3CC41CC26B780098A8BB /* PureLayout.h */,
+				37FF3CC51CC26B780098A8BB /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		37FF3CDC1CC26D5E0098A8BB /* PickerDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				37FF3CEC1CC26ECD0098A8BB /* MJSingleDropViewModel.h */,
+				37FF3CED1CC26ECD0098A8BB /* MJSingleDropViewModel.m */,
+				37FF3CDD1CC26D5E0098A8BB /* I_W_BuildInfo.h */,
+				37FF3CDE1CC26D5E0098A8BB /* I_W_DataSource.h */,
+				37FF3CDF1CC26D5E0098A8BB /* I_W_OptionDataItem.h */,
+				37FF3CE01CC26D5E0098A8BB /* MJSingelDropListCell.h */,
+				37FF3CE11CC26D5E0098A8BB /* MJSingelDropListCell.m */,
+			);
+			path = PickerDataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +381,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FF3BF21CC267340098A8BB /* Main.storyboard in Resources */,
 				37FF3BF71CC267340098A8BB /* LaunchScreen.xib in Resources */,
 				37FF3BF41CC267340098A8BB /* Images.xcassets in Resources */,
 			);
@@ -219,9 +400,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FF3BEF1CC267340098A8BB /* ViewController.m in Sources */,
 				37FF3BEC1CC267340098A8BB /* AppDelegate.m in Sources */,
+				37FF3CE61CC26D5E0098A8BB /* MJSingelDropListCell.m in Sources */,
+				37FF3C2E1CC268CC0098A8BB /* MJButtonExtentView.m in Sources */,
+				37FF3CF61CC26FE50098A8BB /* MainViewController.m in Sources */,
+				37FF3CCC1CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m in Sources */,
+				37FF3C361CC268CC0098A8BB /* MJMultipleChoiceView.m in Sources */,
+				37FF3C3E1CC268CC0098A8BB /* MJSignatureView.m in Sources */,
+				37FF3CCA1CC26B780098A8BB /* NSArray+PureLayout.m in Sources */,
+				37FF3C301CC268CC0098A8BB /* MJButtonView.m in Sources */,
+				37FF3C481CC268CC0098A8BB /* MJBasePlistConfigView.m in Sources */,
+				37FF3CEE1CC26ECD0098A8BB /* MJSingleDropViewModel.m in Sources */,
+				37FF3C341CC268CC0098A8BB /* MJInputTextView.m in Sources */,
+				37FF3C381CC268CC0098A8BB /* MJMultiSelectPickerDataView.m in Sources */,
+				37FF3CD61CC26BD20098A8BB /* NSArray+safety.m in Sources */,
+				37FF3CD81CC26BD20098A8BB /* UIResponder+Router.m in Sources */,
+				37FF3CCE1CC26B780098A8BB /* UIView+TTCategory.m in Sources */,
+				37FF3C3A1CC268CC0098A8BB /* MJPickerDataView.m in Sources */,
+				37FF3C3C1CC268CC0098A8BB /* MJRadioButtonView.m in Sources */,
+				37FF3CDA1CC26BD20098A8BB /* UIView+Shake.m in Sources */,
+				37FF3C461CC268CC0098A8BB /* MJBasePlistConfigRowView.m in Sources */,
+				37FF3CF21CC26F1E0098A8BB /* NSString+Util.m in Sources */,
+				37FF3C2C1CC268CC0098A8BB /* MJBaseWidgetView.m in Sources */,
 				37FF3BE91CC267340098A8BB /* main.m in Sources */,
+				37FF3CC81CC26B780098A8BB /* ALView+PureLayout.m in Sources */,
+				37FF3C441CC268CC0098A8BB /* MJBasePlistConfigController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +432,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FF3C371CC268CC0098A8BB /* MJMultipleChoiceView.m in Sources */,
+				37FF3C491CC268CC0098A8BB /* MJBasePlistConfigView.m in Sources */,
+				37FF3C2D1CC268CC0098A8BB /* MJBaseWidgetView.m in Sources */,
+				37FF3CCD1CC26B780098A8BB /* NSLayoutConstraint+PureLayout.m in Sources */,
+				37FF3CC91CC26B780098A8BB /* ALView+PureLayout.m in Sources */,
+				37FF3CCB1CC26B780098A8BB /* NSArray+PureLayout.m in Sources */,
+				37FF3CE71CC26D5E0098A8BB /* MJSingelDropListCell.m in Sources */,
+				37FF3CCF1CC26B780098A8BB /* UIView+TTCategory.m in Sources */,
+				37FF3CF31CC26F1E0098A8BB /* NSString+Util.m in Sources */,
+				37FF3C471CC268CC0098A8BB /* MJBasePlistConfigRowView.m in Sources */,
+				37FF3C3B1CC268CC0098A8BB /* MJPickerDataView.m in Sources */,
+				37FF3C3F1CC268CC0098A8BB /* MJSignatureView.m in Sources */,
 				37FF3C031CC267340098A8BB /* configViewExampleTests.m in Sources */,
+				37FF3C2F1CC268CC0098A8BB /* MJButtonExtentView.m in Sources */,
+				37FF3CD71CC26BD20098A8BB /* NSArray+safety.m in Sources */,
+				37FF3CEF1CC26ECD0098A8BB /* MJSingleDropViewModel.m in Sources */,
+				37FF3CDB1CC26BD20098A8BB /* UIView+Shake.m in Sources */,
+				37FF3C3D1CC268CC0098A8BB /* MJRadioButtonView.m in Sources */,
+				37FF3CD91CC26BD20098A8BB /* UIResponder+Router.m in Sources */,
+				37FF3CF71CC26FE50098A8BB /* MainViewController.m in Sources */,
+				37FF3C311CC268CC0098A8BB /* MJButtonView.m in Sources */,
+				37FF3C391CC268CC0098A8BB /* MJMultiSelectPickerDataView.m in Sources */,
+				37FF3C451CC268CC0098A8BB /* MJBasePlistConfigController.m in Sources */,
+				37FF3C351CC268CC0098A8BB /* MJInputTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +470,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37FF3BF01CC267340098A8BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37FF3BF11CC267340098A8BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37FF3BF51CC267340098A8BB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

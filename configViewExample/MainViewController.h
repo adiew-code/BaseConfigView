@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  configViewExample
 //
 //  Created by weida on 16/4/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-
