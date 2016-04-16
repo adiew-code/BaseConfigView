@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9D0F4ED3-604A-40FC-9CF7-C72E47AF8858</string>
+	<key>IDESourceControlProjectName</key>
+	<string>configViewExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F7595A6F52B9B5D28837A0A078591354AA3718B</key>
+		<string>https://github.com/weida-studio/BaseConfigView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>configViewExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F7595A6F52B9B5D28837A0A078591354AA3718B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/weida-studio/BaseConfigView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1F7595A6F52B9B5D28837A0A078591354AA3718B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F7595A6F52B9B5D28837A0A078591354AA3718B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>configViewExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
